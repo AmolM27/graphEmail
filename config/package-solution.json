@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-email-client-side-solution",
+    "id": "540930f2-4691-4bf0-b5c5-539dd09b8ef7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      {
+      "resource": "Microsoft.Graph",
+      "scope": "Mail.Read"
+      },
+      {
+        "resource": "Microsoft.Azure.AgregatorService",
+        "scope": "User.ReadBasic.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/graph-email.sppkg"
+  }
+}

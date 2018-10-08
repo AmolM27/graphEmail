@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "graph-email",
+    "libraryId": "540930f2-4691-4bf0-b5c5-539dd09b8ef7",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
